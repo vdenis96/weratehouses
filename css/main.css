@@ -7,6 +7,13 @@
   padding-bottom: 0 !important;
 }
 
-html {
-  scroll-behavior: smooth;
+
+.same-height .fdb-box.fdb-touch {
+  min-height: 500px ;
+}
+
+@media only screen and (max-width: 1199px) {
+  .same-height .fdb-box.fdb-touch {
+    min-height: auto;
+  }
 }
