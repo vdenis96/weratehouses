@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>We Rate Houses</title>
+  <link rel="shortcut icon" type="image/png" href="imgs/favicon.png" />
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link type="text/css" rel="stylesheet" href="css/froala_blocks.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<header class="bg-dark">
+  <div class="container">
+    <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="https://www.Lorem">
+        <img src="./imgs/logo.png" height="30" alt="image">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav9" aria-controls="navbarNav9"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav9">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+        </ul>
+
+        <ul class="navbar-nav justify-content-end d-none d-lg-flex ml-md-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.Lorem"><i class="fab fa-facebook"></i></a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<body>
+
+  <section class="fdb-block py-0">
+    <div class="container py-5 my-5">
+      <div class="row py-5">
+        <div class="col py-5">
+          <div class="fdb-box fdb-touch">
+            <div class="row text-center justify-content-center">
+              <div class="col-12 col-md-9 col-lg-7">
+                <h1>Contact Us</h1>
+                <p class="lead">Please provide the details below as soon as possible so we can complete our assessment
+                  quickly and efficiently</p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center pt-4">
+              <div class="col-12 col-md-8">
+
+                <form id="form" action="" method="post">
+
+                  <div class="row">
+                    <div class="col-12 col-md">
+                      <textarea class="form-control" placeholder="Project Address" name="projectAdress"></textarea>
+                    </div>
+                    <div class="col-12 col-md mt-4 mt-md-0">
+                      <textarea class="form-control" placeholder="Lot / DP" name="lotDp"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <input type="email" name="mail" id="" placeholder="Email" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="row mt-4 pb-2">
+                    <div class="col-12 col-md">
+                      <input type="text" class="form-control" placeholder="Contact name" name="contactName">
+                    </div>
+                    <div class="col-12 col-md mt-4 mt-md-0">
+                      <input type="number" class="form-control" placeholder="Number of dwellings" name="nrDwell">
+                    </div>
+                  </div>
+                  <hr>
+
+                  <div class="row mt-4 ">
+                    <div class="col-12 col-md">
+                      <p>Window “operability” is needed for NatHERS – is this shown on drawings?</p>
+                      <input type="radio" name="window" value="Yes"> Yes
+                      <input type="radio" name="window" value="No"> No
+                    </div>
+                    <div class="col-12 col-md mt-4 mt-md-0">
+                      <p>Are recessed downlights present?</p>
+                      <input type="radio" name="downlights" value="Yes"> Yes
+                      <input type="radio" name="downlights" value="No"> No
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <p class="lead">Construction</p>
+                    </div>
+                  </div>
+
+                  <div class="row ">
+                    <div class="col-12 col-md">
+                      <p>External wall type 1</p>
+                      <select name="walltype1" id="walltype1" class="form-control mb-1">
+                        <option value="Brick Veneer">Brick Veneer</option>
+                        <option value="Reverse Brick Veneer">Reverse Brick Veneer</option>
+                        <option value="Cavity Brick">Cavity Brick</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete lined">Concrete lined</option>
+                        <option value="Concrete hollow">Concrete hollow</option>
+                        <option value="AAC/Hebel">AAC/Hebel</option>
+                        <option value="AAC lined/PowerPanel">AAC lined/PowerPanel</option>
+                        <option value="FC clad">FC clad</option>
+                        <option value="Weatherboard">Weatherboard</option>
+                        <option value="Metal clad">Metal clad</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" class="form-control" name=ewinput1>
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>External wall type 2</p>
+                      <select name="walltype2" id="walltype2" class="form-control mb-1">
+                        <option value="Brick Veneer">Brick Veneer</option>
+                        <option value="Reverse Brick Veneer">Reverse Brick Veneer</option>
+                        <option value="Cavity Brick">Cavity Brick</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete lined">Concrete lined</option>
+                        <option value="Concrete hollow">Concrete hollow</option>
+                        <option value="AAC/Hebel">AAC/Hebel</option>
+                        <option value="AAC lined/PowerPanel">AAC lined/PowerPanel</option>
+                        <option value="FC clad">FC clad</option>
+                        <option value="Weatherboard">Weatherboard</option>
+                        <option value="Metal clad">Metal clad</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" class="form-control" name="ewinput2">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>External wall type 3</p>
+                      <select name="walltype3" id="walltype3" class="form-control mb-1">
+                        <option value="Brick Veneer">Brick Veneer</option>
+                        <option value="Reverse Brick Veneer">Reverse Brick Veneer</option>
+                        <option value="Cavity Brick">Cavity Brick</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete lined">Concrete lined</option>
+                        <option value="Concrete hollow">Concrete hollow</option>
+                        <option value="AAC/Hebel">AAC/Hebel</option>
+                        <option value="AAC lined/PowerPanel">AAC lined/PowerPanel</option>
+                        <option value="FC clad">FC clad</option>
+                        <option value="Weatherboard">Weatherboard</option>
+                        <option value="Metal clad">Metal clad</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" class="form-control" name="ewinput3">
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <textarea name="wallDesc" id="" rows="5" placeholder="Wall colour and description if multiple external wall type"
+                        class="form-control"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12 col-md">
+                      <p>Party wall type 1</p>
+                      <select name="party1" id="party1" class="form-control mb-1">
+                        <option value="Brick">Brick</option>
+                        <option value="Brick with plasterboard direct fix">Brick with plasterboard direct fix</option>
+                        <option value="Brick with plasterboard on studs">Brick with plasterboard on studs</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete with plasterboard direct fix">Concrete with plasterboard direct fix</option>
+                        <option value="Concrete with plasterboard on studs">Concrete with plasterboard on studs</option>
+                        <option value="AAC">AAC</option>
+                        <option value="AAC with plasterboard direct fix">AAC with plasterboard direct fix</option>
+                        <option value="AAC with plasterboard on studs">AAC with plasterboard on studs</option>
+                        <option value="Cavity brick">Cavity brick</option>
+                        <option value="Cavity brick with plasterboard direct fix">Cavity brick with plasterboard direct
+                          fix</option>
+                        <option value="Shaftliner with plasterboard">Shaftliner with plasterboard</option>
+                        <option value="N/A">N/A</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" class="form-control" name="party1input">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>Party wall type 2</p>
+                      <select name="party2" id="party2" class="form-control mb-1">
+                        <option value="Brick">Brick</option>
+                        <option value="Brick with plasterboard direct fix">Brick with plasterboard direct fix</option>
+                        <option value="Brick with plasterboard on studs">Brick with plasterboard on studs</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete with plasterboard direct fix">Concrete with plasterboard direct fix</option>
+                        <option value="Concrete with plasterboard on studs">Concrete with plasterboard on studs</option>
+                        <option value="AAC">AAC</option>
+                        <option value="AAC with plasterboard direct fix">AAC with plasterboard direct fix</option>
+                        <option value="AAC with plasterboard on studs">AAC with plasterboard on studs</option>
+                        <option value="Cavity brick">Cavity brick</option>
+                        <option value="Cavity brick with plasterboard direct fix">Cavity brick with plasterboard direct
+                          fix</option>
+                        <option value="Shaftliner with plasterboard">Shaftliner with plasterboard</option>
+                        <option value="N/A">N/A</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" class="form-control" name="party2input">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>Party wall type 3</p>
+                      <select name="party3" id="party3" class="form-control mb-1">
+                        <option value="Brick">Brick</option>
+                        <option value="Brick with plasterboard direct fix">Brick with plasterboard direct fix</option>
+                        <option value="Brick with plasterboard on studs">Brick with plasterboard on studs</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete with plasterboard direct fix">Concrete with plasterboard direct fix</option>
+                        <option value="Concrete with plasterboard on studs">Concrete with plasterboard on studs</option>
+                        <option value="AAC">AAC</option>
+                        <option value="AAC with plasterboard direct fix">AAC with plasterboard direct fix</option>
+                        <option value="AAC with plasterboard on studs">AAC with plasterboard on studs</option>
+                        <option value="Cavity brick">Cavity brick</option>
+                        <option value="Cavity brick with plasterboard direct fix">Cavity brick with plasterboard direct
+                          fix</option>
+                        <option value="Shaftliner with plasterboard">Shaftliner with plasterboard</option>
+                        <option value="N/A">N/A</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" class="form-control" name="party3input">
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <textarea name="partyWallDesc" id="multipleParty" rows="2" class="form-control" placeholder="Description if multiple party wall types"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12 col-md">
+                      <p>Ground/basement floor type</p>
+                      <select name="groundType" id="grountType" class="form-control">
+                        <option value="Concrete">Concrete</option>
+                        <option value="Concrete wafflepod">Concrete wafflepod</option>
+                        <option value="Timber">Timber</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" name="groundTypeIn" id="" class="form-control mt-1">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>Intermediate floor type</p>
+                      <select name="interType" id="intermediateType" class="form-control">
+                        <option value="Concrete">Concrete</option>
+                        <option value="Timber framed">Timber framed</option>
+                        <option value="N/A">N/A</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" name="interTypeIn" id="" class="form-control mt-1">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>Internal wall type</p>
+                      <select name="internalType" id="internalType" class="form-control">
+                        <option value="Plasterboard on lightweight framing">Plasterboard on lightweight framing</option>
+                        <option value="Single brick">Single brick</option>
+                        <option value="Concrete solid">Concrete solid</option>
+                        <option value="Concrete block hollow">Concrete block hollow</option>
+                        <option value="AAC">AAC</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" name="internalTypeIn" id="" class="form-control mt-1">
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12 col-md">
+                      <p>Roof type</p>
+                      <select name="roofType" id="roofType" class="form-control">
+                        <option value="Concrete">Concrete</option>
+                        <option value="Metal deck">Metal deck</option>
+                        <option value="Tiles">Tiles</option>
+                        <option value="Other">Other</option>
+                      </select>                  
+                      <input type="text" name="roofTypeIn" id="" class="form-control mt-1">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>Roof colour</p>
+                      <select name="roofColor" id="roofColor" class="form-control">
+                        <option value="Light">Light</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Dark">Dark</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" name="roofColorIn" id="" class="form-control mt-1">
+                    </div>
+                    <div class="col-12 col-md">
+                      <p>Glazing details</p>
+                      <select name="glazingDetails" id="" class="form-control">
+                        <option value="Aluminium">Aluminium</option>
+                        <option value="Timber">Timber</option>
+                        <option value="UPVC">UPVC</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <input type="text" name="glazingDetailsIn" id="" class="form-control mt-1">
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <textarea name="" id="" rows="2" class="form-control" placeholder="Any other comments "></textarea>
+                    </div> 
+                  </div> <hr>
+
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <p class="lead">Secondary questions (Not required for assessment commencement)</p>
+                      <p>BASIX questions</p>
+                      <input type="text" name="" id="" placeholder="Type of hot water system?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Any Heating and cooling?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Are dishwashers included?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Any other whitegoods?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Type of cooktop and oven?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Any clothes drying lines?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Area of common lawn?" class="form-control mb-1">
+                      <input type="text" name="" id="" placeholder="Area of common garden?" class="form-control mb-1">
+                      <textarea type="text" name="" id="" placeholder="Area of private lawn + garden + planter for each unit ?" class="form-control"></textarea>
+                    </div>
+                  </div>
+
+
+
+                  <div class="row mt-4">
+                    <div class="col-12 text-center">
+                      <button type="submit" class="btn btn-secondary" name="submit">Submit</button>
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="fdb-block footer-large bg-dark">
+    <div class="container">
+      <div class="row align-items-top text-center text-md-left">
+        <div class="col-12 col-sm-6 col-md-4">
+          <h3><strong>Country A</strong></h3>
+          <p>Street Address 52<br>Contact Name</p>
+          <p>+44 827 312 5002</p>
+          <p><a href="https://www.Lorem">countrya@amazing.com</a></p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
+          <h3><strong>Country B</strong></h3>
+          <p>Street Address 100<br>Contact Name</p>
+          <p>+13 827 312 5002</p>
+          <p><a href="https://www.Lorem">countryb@amazing.com</a></p>
+        </div>
+
+        <div class="col-12 col-md-4 mt-5 mt-md-0 text-md-left">
+          <h3><strong>About Us</strong></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col text-center">
+          © 2019. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
